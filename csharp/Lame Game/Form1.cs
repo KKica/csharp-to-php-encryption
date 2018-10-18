@@ -17,7 +17,7 @@
 // along with the C# to PHP Encryption Library.  If not, see <http://www.gnu.org/licenses/>.
 //
 
-using CS2PHPCryptography;
+using CSTOPHPENCRYPTION;
 using System;
 using System.Windows.Forms;
 
@@ -35,7 +35,7 @@ namespace Lame_Game
             secure.OnConnectionEstablished += new SecurePHPConnection.ConnectionEstablishedHandler(secure_OnConnectionEstablished);
             secure.OnResponseReceived += new SecurePHPConnection.ResponseReceivedHandler(secure_OnResponseReceived);
 
-            secure.SetRemotePhpScriptLocation("http://skot2/enc/score.php");
+            secure.SetRemotePhpScriptLocation("http://localhost/score.php");
             secure.EstablishSecureConnectionAsync();
 
             button1.Enabled = false;

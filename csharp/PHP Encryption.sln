@@ -1,11 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHP Encryption", "PHP Encryption\PHP Encryption.csproj", "{C52DC0A4-92E4-43FB-A784-66D670C809A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS2PHPCryptography", "CS2PHPCryptography\CS2PHPCryptography.csproj", "{16F01301-B3C8-43FC-BBF8-E60EBBAA7DAB}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lame Game", "Lame Game\Lame Game.csproj", "{EA3E1FEB-21C1-4FDE-995D-42333F68F270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSTOPHPENCRYPTION", "CSTOPHPENCRYPTION\CSTOPHPENCRYPTION.csproj", "{1790A81C-B5B5-48DF-AA72-B164AF713A1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,16 +29,6 @@ Global
 		{C52DC0A4-92E4-43FB-A784-66D670C809A5}.Release|Mixed Platforms.Build.0 = Release|x86
 		{C52DC0A4-92E4-43FB-A784-66D670C809A5}.Release|x86.ActiveCfg = Release|x86
 		{C52DC0A4-92E4-43FB-A784-66D670C809A5}.Release|x86.Build.0 = Release|x86
-		{16F01301-B3C8-43FC-BBF8-E60EBBAA7DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16F01301-B3C8-43FC-BBF8-E60EBBAA7DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16F01301-B3C8-43FC-BBF8-E60EBBAA7DAB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{16F01301-B3C8-43FC-BBF8-E60EBBAA7DAB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{16F01301-B3C8-43FC-BBF8-E60EBBAA7DAB}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{16F01301-B3C8-43FC-BBF8-E60EBBAA7DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{16F01301-B3C8-43FC-BBF8-E60EBBAA7DAB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{16F01301-B3C8-43FC-BBF8-E60EBBAA7DAB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{16F01301-B3C8-43FC-BBF8-E60EBBAA7DAB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{16F01301-B3C8-43FC-BBF8-E60EBBAA7DAB}.Release|x86.ActiveCfg = Release|Any CPU
 		{EA3E1FEB-21C1-4FDE-995D-42333F68F270}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{EA3E1FEB-21C1-4FDE-995D-42333F68F270}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{EA3E1FEB-21C1-4FDE-995D-42333F68F270}.Debug|Mixed Platforms.Build.0 = Debug|x86
@@ -47,8 +39,23 @@ Global
 		{EA3E1FEB-21C1-4FDE-995D-42333F68F270}.Release|Mixed Platforms.Build.0 = Release|x86
 		{EA3E1FEB-21C1-4FDE-995D-42333F68F270}.Release|x86.ActiveCfg = Release|x86
 		{EA3E1FEB-21C1-4FDE-995D-42333F68F270}.Release|x86.Build.0 = Release|x86
+		{1790A81C-B5B5-48DF-AA72-B164AF713A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1790A81C-B5B5-48DF-AA72-B164AF713A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1790A81C-B5B5-48DF-AA72-B164AF713A1A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1790A81C-B5B5-48DF-AA72-B164AF713A1A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1790A81C-B5B5-48DF-AA72-B164AF713A1A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1790A81C-B5B5-48DF-AA72-B164AF713A1A}.Debug|x86.Build.0 = Debug|Any CPU
+		{1790A81C-B5B5-48DF-AA72-B164AF713A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1790A81C-B5B5-48DF-AA72-B164AF713A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1790A81C-B5B5-48DF-AA72-B164AF713A1A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1790A81C-B5B5-48DF-AA72-B164AF713A1A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1790A81C-B5B5-48DF-AA72-B164AF713A1A}.Release|x86.ActiveCfg = Release|Any CPU
+		{1790A81C-B5B5-48DF-AA72-B164AF713A1A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A60F957D-FBCD-4974-AB2C-285368B9D45F}
 	EndGlobalSection
 EndGlobal
