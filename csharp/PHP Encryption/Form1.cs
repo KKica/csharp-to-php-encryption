@@ -17,7 +17,7 @@
 // along with the C# to PHP Encryption Library.  If not, see <http://www.gnu.org/licenses/>.
 //
 
-using CS2PHPCryptography;
+using CSTOPHPENCRYPTION;
 using System;
 using System.Windows.Forms;
 
